@@ -1,71 +1,55 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>桜AI</title>
-    <link rel="icon" type="image/png" href="https://arafat.us.kg/images/favicon.ico">
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    
-    <!-- Chatbot Styling -->
-    <style>
-        langflow-chat {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            width: 400px;
-            height: 500px;
-            z-index: 9999;
-            border-radius: 10px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-        }
-    </style>
-    
-    <!-- HTML5 Shim and Respond.js for IE8 support -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
-<body>
+<html>
+  <head>
+      <title>桜AI</title>
+      <meta name=viewport content="width=device-width, initial-scale=1">
+      <link rel="icon" type="image/png" href="https://arafat.us.kg/images/favicon.ico">
+      <!-- CSS -->
+      <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+      <link rel="stylesheet" href="assets/css/style.css">
+      <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+  </head>
+  <body>
+
 
     <div class="container">
-        <div class="text-center hd1">
-            <img src="assets/img/bot1.svg" alt="bot1">
-            <br>
-            桜AI
-            <br>
-            <div class="powered">
-                <span>Powered by</span>
-                <a href="https://www.pacific.co.jp/" target="_blank">
-                    <img src="assets/img/pclogo.png" style="max-width: 100%; height: auto;">
-                </a>
-            </div>
-        </div>
 
-        <script src="https://cdn.jsdelivr.net/gh/logspace-ai/langflow-embedded-chat@v1.0.7/dist/build/static/js/bundle.min.js"></script>
 
-  <langflow-chat
-    window_title="sakura 1"
-    flow_id="457a17eb-3bfa-4229-9b6b-9bcd41d3f550"
-    host_url="https://proton2-langflow.hf.space"
 
-  ></langflow-chat>
+      <div class="text-center hd1">
+        <img src="assets/img/bot1.svg" alt="bot1">
+        <br>
+        桜AI
+        <br>
+        <div class="powered">
+          <span>Powered by</span>
+          <a href="https://www.pacific.co.jp/" target="_blank">
+<img src="assets/img/pclogo.png" style="max-width: 100%; height: auto;">
+          </a>
 
-        <!-- Footer -->
+          
+    <script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
+<script src="https://files.bpcontent.cloud/2025/01/22/08/20250122083155-6PHGT9UG.js"></script>
+    
+        </div><!--powered end-->
         <div class="footer text-center">
-            <span class="foo-txt">
-                <br>
-                Crafted with <i class="fa fa-heart" aria-hidden="true"></i> in Tokyo
-            </span>
+          <span class="foo-txt">
+            <br>
+            Crafted with <i class="fa fa-heart" aria-hidden="true"></i> in Tokyo
+          </span>
         </div>
-    </div>
+      </div>
 
-    <!-- JS -->
+
+    </div><!--container end-->
+
+
+    <!--JS-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script src="assets/js/script.js"></script>
-
-</body>
+  </body>
 </html>
